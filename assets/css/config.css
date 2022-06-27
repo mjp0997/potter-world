@@ -1,0 +1,54 @@
+html {
+   box-sizing: border-box;
+
+   /* 1rem = 10px */
+   font-size: 62.5%;
+
+   scroll-behavior: smooth;
+}
+
+body {
+   font-size: 1.6rem;
+   
+   color: var(--black);
+   background-color: var(--bg-body);
+}
+
+* {
+   box-sizing: inherit;
+   
+   margin: 0;
+   padding: 0;
+
+   text-decoration: none;
+   
+   list-style: none;
+
+   color: inherit;
+   background-color: transparent;
+
+   font-family: var(--main-font);
+   line-height: 100%;
+
+   cursor: default;
+
+   z-index: inherit;
+
+   border: none;
+}
+
+*:before, *:after {
+   box-sizing: inherit;
+}
+
+a {
+   cursor: pointer!important;
+}
+
+a * {
+   cursor: pointer!important;
+}
+
+*:focus {
+   outline: none;
+}
