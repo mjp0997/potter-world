@@ -4,3 +4,50 @@
 .brand-font {
    font-family: var(--brand-font);
 }
+
+.letter-sp-1 {
+   letter-spacing: 0.1rem;
+}
+
+
+
+/* Images */
+
+.img-container {
+   display: flex;
+}
+
+.img-container > img {
+   width: 100%;
+}
+
+
+
+
+/* Backgrounds */
+
+.parallax {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-blend-mode: color-dodge;
+
+   backdrop-filter: blur(1rem);
+}
+
+.bg-img-1 {
+   background-image: url('../images/section-1.webp');
+}
+
+
+
+/* Sections */
+
+.header-section {
+   height: calc(100vh - 7.6rem);
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
