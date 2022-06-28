@@ -20,8 +20,8 @@
 
    <body class="text-bg-secondary">
       <!-- Header -->
-      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-         <div class="container-fluid">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+         <div class="container-fluid px-5">
             <a class="navbar-brand d-flex align-items-center" href="./index.html">
                <img src="./assets/images/hollows-light.svg" alt="brand logo"  width="60" height="60">
 
@@ -32,26 +32,60 @@
                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav ms-auto gap-5 mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse pe-md-5" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto gap-5 mb-2 mb-lg-0 pe-md-5">
                   <li class="nav-item">
                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
 
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Link</a>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Libros
+                     </a>
+                     
+                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Harry Potter y la piedra filosofal</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y la camara secreta</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y el prisionero de Azkaban</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y el cáliz de fuego</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y la orden del fenix</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y el misterio del principe</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y las reliquias de la muerte</a></li>
+                     </ul>
                   </li>
 
                   <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Películas
                      </a>
-                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Harry Potter y la piedra filosofal</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y la camara secreta</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y el prisionero de Azkaban</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y el cáliz de fuego</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y la orden del fenix</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y el misterio del principe</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y las reliquias de la muerte (parte 1)</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Harry Potter y las reliquias de la muerte (parte 2)</a></li>
                      </ul>
+                  </li>
+
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Autor</a>
                   </li>
                </ul>
             </div>
@@ -76,6 +110,7 @@
       </section>
       <!-- End: Section -->
 
+      <!-- Section -->
       <section class="container-fluid py-5">
          <h1 class="text-center mb-5 pb-5 letter-sp-1 text-uppercase">Libros</h2>
 
@@ -231,6 +266,81 @@
             </div>
          </div>
       </section>
+      <!-- End: Section -->
+
+      <!-- Section -->
+      <section class="container-fluid py-5 parallax darker-parallax bg-img-2 header-section">
+         <h1 class="text-center mb-5 pb-5 letter-sp-1 text-uppercase">casas de hogwarts</h2>
+
+         <div class="row">
+            <div class="col-10 mx-auto">
+               <div class="row">
+                  <div class="col-md text-center">
+                     <div class="img-container p-5">
+                        <img src="./assets/images/houses/gryffindor.svg" alt="gryffindor">
+                     </div>
+
+                     <p class="fs-1">Gryffindor</p>
+
+                     <p>Fundador: Godric Gryffindor</p>
+
+                     <p>Cualidades: valor, fuerza y audacia</p>
+
+                     <p>Fantasma: Nick casi decapitado</p>
+                  </div>
+
+                  <div class="col-md text-center">
+                     <div class="img-container p-5">
+                        <img src="./assets/images/houses/slytherin.svg" alt="slytherin">
+                     </div>
+
+                     <p class="fs-1">Slytherin</p>
+
+                     <p>Fundador: Salazar Slytherin</p>
+
+                     <p>Cualidades: ambición, determinación y astucia</p>
+
+                     <p>Fantasma: El Barón sanguinario</p>
+                  </div>
+
+                  <div class="col-md text-center">
+                     <div class="img-container p-5">
+                        <img src="./assets/images/houses/hufflepuff.svg" alt="hufflepuff">
+                     </div>
+
+                     <p class="fs-1">Hufflepuff</p>
+
+                     <p>Fundador: Helga Hufflepuff</p>
+
+                     <p>Cualidades: justicia, lealtad y paciencia</p>
+
+                     <p>Fantasma: El Fraile gordo</p>
+                  </div>
+
+                  <div class="col-md text-center">
+                     <div class="img-container p-5">
+                        <img src="./assets/images/houses/ravenclaw.svg" alt="ravenclaw">
+                     </div>
+
+                     <p class="fs-1">Ravenclaw</p>
+
+                     <p>Fundador: Rowena Ravenclaw</p>
+
+                     <p>Cualidades: creatividad, erudición e inteligencia</p>
+
+                     <p>Fantasma: La Dama gris</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End: Section -->
+
+      <!-- Footer -->
+      <footer class="container-fluid py-5 text-bg-dark text-center">
+         &#169; Potter World 2022 - Todos los derechos reservados
+      </footer>
+      <!-- End: Footer -->
 
       <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

@@ -36,8 +36,16 @@
    backdrop-filter: blur(1rem);
 }
 
+.darker-parallax {
+   background-blend-mode: darken!important;
+}
+
 .bg-img-1 {
    background-image: url('../images/section-1.webp');
+}
+
+.bg-img-2 {
+   background-image: url('../images/section-2.webp');
 }
 
 
@@ -45,7 +53,7 @@
 /* Sections */
 
 .header-section {
-   height: calc(100vh - 7.6rem);
+   min-height: calc(100vh - 7.6rem);
 
    display: flex;
    flex-direction: column;
