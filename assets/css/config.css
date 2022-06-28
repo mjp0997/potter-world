@@ -8,6 +8,7 @@ html {
 }
 
 body {
+   font-family: var(--main-font);
    font-size: 1.6rem;
    
    color: var(--black);
@@ -27,7 +28,7 @@ body {
    color: inherit;
    background-color: transparent;
 
-   font-family: var(--main-font);
+   font-family: inherit;
    line-height: 100%;
 
    cursor: default;
