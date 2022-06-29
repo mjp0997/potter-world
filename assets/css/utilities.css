@@ -57,6 +57,14 @@
    background-image: url('../images/section-3.jpg');
 }
 
+.bg-yellow {
+   background-color: rgb(224, 164, 0)!important;
+}
+
+.bg-body {
+   background-color: #2d3238;
+}
+
 
 
 /* Sections */
