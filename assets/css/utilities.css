@@ -65,6 +65,10 @@
    background-color: #2d3238;
 }
 
+.bg-section {
+   background-color: rgba(0, 0, 0, 0.9)!important;
+}
+
 
 
 /* Sections */
